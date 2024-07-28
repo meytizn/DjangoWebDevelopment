@@ -1,2 +1,2 @@
-# Django Web Applications
-Tehran Institute of Technology (Boot Camp)
+# Tehran Institute of Technology (Boot Camp)
+Django web Applications
