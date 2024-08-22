@@ -1,35 +1,49 @@
 {% extends "blogs/base.html" %} {% load static %} {% block content %}
-<div class="container">
+
+<div class="left-image-post">
   <div class="row">
-    <!-- Main Article -->
-    <div class="col-md-12 margin-top-30">
-      <h2 class="item-title">My projects</h2>
-      <p>
-        <img class="animate fadeInRight" 
-        style="float: right"
-        src="{% static "assets/img/frontpage/responsive_screens.png" %}" alt="responsivescreens" />Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-        diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-        volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
-        ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-        Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
-        molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero
-        eros et accumsan et iusto odio dignissim qui blandit praesent luptatum
-        zzril delenit augue duis dolore te feugait nulla facilisi.
-      </p>
-      <p>
-        Mirum est notare quam littera gothica, quam nunc putamus. Cras non sem
-        sem, at eleifend mi. Vivamus sit amet ante est, sit amet rutrum augue.
-        Cras non sem sem, at eleifend mi. Nam liber tempor cum soluta nobis
-        eleifend option congue nihil imperdiet doming id quod mazim placerat
-        facer possim assum. Curabitur eget nisl a risus.
-      </p>
+    <div class="col-md-6">
+      <div class="left-image">
+        <img src="{% static "assets/images/left-image.jpg" %}" alt="" />
+      </div>
     </div>
-    <div class="clearfix"></div>
-    <!-- End Main Article -->
+    <div class="col-md-6">
+      <div class="right-text">
+        <h4>Reflux HTML CSS Template</h4>
+        <p>
+          Donec tristique feugiat lacus, at sollicitudin nunc euismod sed.
+          Mauris viverra, erat non sagittis gravida, elit dui mollis ante, sit
+          amet eleifend purus ligula eget eros. Sed tincidunt quam vitae neque
+          pharetra dignissim eget ut libero.
+        </p>
+        <div class="white-button">
+          <a href="#">Read More</a>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
-
-
-
-
+<div class="right-image-post">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="left-text">
+        <h4>Sed sagittis rhoncus velit</h4>
+        <p>
+          Pellentesque habitant morbi tristique senectus et netus et malesuada
+          fames ac turpis egestas. Vestibulum fermentum eleifend nibh, vitae
+          sodales elit finibus pretium. Suspendisse potenti. Ut sollicitudin
+          risus a sollicitudin semper.
+        </p>
+        <div class="white-button">
+          <a href="#">Read More</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="right-image">
+        <img src="{% static "assets/images/right-image.jpg" %}" alt="" />
+      </div>
+    </div>
+  </div>
+</div>
 {% endblock content %}
