@@ -1,12 +1,12 @@
 """ Urls blogs """
 from django.urls import path
 
-from .views import *
+from .views import home
 
 
 app_name="blogs"
 
 
 urlpatterns = [
-    path('index/',index,name="index"),
+    path('',home,name="index"),
 ]
